@@ -28,18 +28,22 @@ h4,
 h5,
 h6,
 p {
-	font-weight: 700;
+	font-weight: 400;
 }
 
 // Set up the body
 body {
 	font-family: var(--ff-sans);
 	font-size: var(--fs-400);
-	font-weight: 700;
-	background-color: var(--clr-gray);
+	font-weight: 400;
+	background: #5e3fde;
 	color: var(--clr-text-dark);
 	line-height: 1.5;
 	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 
 	overflow-x: hidden;
 
@@ -47,6 +51,7 @@ body {
 		overflow: hidden;
 	}
 }
+
 
 // Make images easier to work with
 
