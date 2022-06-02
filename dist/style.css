@@ -223,7 +223,7 @@ select {
   align-items: center;
   z-index: 20;
 }
-.title-screen[exit] {
+.title-screen--exit {
   -webkit-animation: rotate-out 800ms cubic-bezier(0.5, 0, 0.75, 0) forwards;
           animation: rotate-out 800ms cubic-bezier(0.5, 0, 0.75, 0) forwards;
 }

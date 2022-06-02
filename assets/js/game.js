@@ -19,19 +19,13 @@ playerSelectors.forEach(selector => {
 })
 
 function startGame() {
-	// hide the title screen
-	titleScreen.setAttribute('exit', '')
+	titleScreen.classList.add('title-screen--exit');
 
 	titleScreen.addEventListener('animationend', () => {
 		titleScreen.style.display = 'none';
-		titleScreen.removeAttribute('exit');
+		titleScreen.classList.remove('title-screen--exit');
 
 		gameBoard.style.display = 'flex';
 
 	}, {once: true});
-
-
-
-	// gameBoard.style.display = 'flex';
-	// show the game-board
 }
