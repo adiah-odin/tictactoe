@@ -1,0 +1,12 @@
+@use '../abstracts/' as abs;
+.game {
+	width: 100%;
+	margin-inline: min(10%, 1rem);
+	aspect-ratio: 1;
+	position: relative;
+
+	@include abs.breakpoint(large) {
+		width: 28%;
+		max-width: 400px;
+	}
+}

@@ -1,0 +1,24 @@
+.btn-toggle:hover { background: #d0c7f7; }
+
+/* ----- */
+/* Icons */
+/* ----- */
+
+.icon {
+  width: 80px;
+  display: block;
+  cursor: pointer;
+}
+
+.icon:first-child { margin-right: 20px; }
+
+.icon__line {
+  fill: none;
+  stroke: #d9a2a9;
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  transition: stroke 0.2s;
+}
+
+.icon:hover .icon__line { stroke: #ff6286; }
